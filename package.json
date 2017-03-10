@@ -19,7 +19,8 @@
     "url": "https://github.com/syntaxhighlighter/theme-django.git"
   },
   "scripts": {
-    "test": "mocha --opts mocha.opts test.js"
+    "test": "mocha --opts mocha.opts test.js",
+    "build": "node build.js"
   },
   "devDependencies": {
     "babel-core": "^6.1.21",
